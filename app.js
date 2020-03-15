@@ -13,9 +13,7 @@ app.use(bodyParser.json());
 app.use("/uploads", express.static("uploads"));
 
 mongoose.connect(
-  "mongodb+srv://shubham:" +
-    process.env.ATLAS_PASS +
-    "@selfi-notes-ze7hc.mongodb.net/test?retryWrites=true&w=majority",
+  <Your mongodb atlas cluster url>,
   { useNewUrlParser: true }
 );
 mongoose.Promise = global.Promise;
