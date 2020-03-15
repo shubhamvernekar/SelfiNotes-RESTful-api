@@ -1,0 +1,6 @@
+{
+    "env": {
+        "ATLAS_PASS": "pythonC++6",
+        "JWT_KEY": "secret"
+    }
+}
