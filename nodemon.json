@@ -1,6 +1,6 @@
 {
     "env": {
-        "ATLAS_PASS": "pythonC++6",
-        "JWT_KEY": "secret"
+        "ATLAS_PASS": <Your atlas password>,
+        "JWT_KEY": <Your jwt key>
     }
 }
